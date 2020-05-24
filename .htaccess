@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://froyoxpress.com/$1 [R=301,L]
+
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+#PassengerAppRoot "/home/froyiytl/PaymentProcess"
+#PassengerBaseURI "/"
+#PassengerPython "/home/froyiytl/virtualenv/PaymentProcess/3.7/bin/python3.7"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
