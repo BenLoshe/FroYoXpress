@@ -1,0 +1,49 @@
+<!doctype html>
+
+<head>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
+</head>
+
+<body>
+    <a class="ui button primary" id="test" style="margin: 20px;"> Reorder </a>  
+    <div class="ui modal test">
+        <div class="ui middle aligned center aligned grid">
+            <div class="column">
+                <h2 class="ui blue header">
+                  <div class="content" style="padding-top: 10px">
+                    Order Additional Product
+                  </div>
+                </h2>
+                <form class="ui large form">
+                  <div class="ui  segment">
+                    <div id="insertRowPoint_0"></div>
+                    <p style="margin: 0 0 10px 0;">
+                        <a href="javascript:deleteRows()" style="margin-right: 15px;">Show Less</a>
+                        <a href="javascript:insertRows()" style="margin-left: 15px;">Show More</a>
+                    </p>
+                    <button class="ui fluid large primary submit button"
+                        id="checkout-button-sku_FrNlwdTLaT9l2I"
+                        role="link" type="button">
+                        Checkout
+                    </button>
+                  </div>
+                </form>
+            
+                <div class="ui message">
+                  Don't see what you need? <a href="mailto: contactfroyoxpress@gmail.com">Email us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <div id="error-message"></div>
+
+    <script src="./js/reorderModalScript.js"></script>
+    <script src="./js/stripeScript.js"></script>
+    <script src="./js/showModal.js"></script>
+    <script> $('.ui.modal') .modal({ observeChanges: true }); </script>
+</body>

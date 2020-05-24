@@ -1,0 +1,110 @@
+﻿/* @charset "utf-8"; */
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+p{
+	font-size: 12px;
+	color: #373737;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+}
+.pay_text{
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: #e8416f;
+}
+p a{
+	color: #218bdc;
+	font-size: 12px;
+	text-decoration: none;
+}
+a{
+	outline: none;
+}
+label{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear{
+	clear: both;
+	overflow: hidden;
+}
+
+.payment{
+	padding: 20px;
+}
+
+
+.pay_row {
+    display: flex;
+    flex-wrap: wrap;
+	margin: 0 -16px;
+	padding-left: 20px;
+	padding-right: 20px;
+  }
+.pay_container {
+	background-color: #B7CEEC;
+	padding: 20px 20px 15px 20px;
+	border: 5px solid lightgrey;
+	border-radius: 5px;
+}
+input[type=text] {
+	min-width: 100px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px 1px 15px 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.col-even {
+	flex: 25%;
+}
+
+/*.orderInfo {
+    padding: 5px;
+    width: 25%;
+    height:50%;
+}*/
+
+.col-50 {
+	flex: 50%;
+}
+
+.col-100 {
+	flex: 100%;
+}
+
+.col-even,
+.col-50,
+.col-75 {
+	padding: 0 16px;
+}
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-even {
+      margin-bottom: 20px;
+    }
+  }
+  .pay_btn {
+    background-color: #e8416f;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  .pay_btn:hover {
+    background-color: lightpink;
+  }
+  
