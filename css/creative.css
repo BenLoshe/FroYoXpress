@@ -105,6 +105,7 @@ body {
   @media (min-width: 992px) {
     #mainNav {
       border-color: transparent;
+	  /*can edit this but would need to change text too*/
       background-color: transparent; }
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 1); }
