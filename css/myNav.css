@@ -1,0 +1,162 @@
+/* CSS Document */
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar ul {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.kiosk_pic{
+	width: 100%;
+}
+
+.partner_pic {
+	width: 50%;
+	height: 50%;
+	min-height: 150px;
+	min-width: 150px;
+	max-height:300px;
+	max-width:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#partner {
+	background-image: url();
+}
+
+.horiz-logo {
+	height: 100%;
+	width: 100%;
+	min-height: 10px;
+	min-width: 90px;
+}
+
+.fyx-item:hover {
+	color: #73cde0;
+}
+
+.fyx-item {
+	font-weight: bold;
+}
+
+.partner-nav-img {
+	height: 20px;
+	min-height: 10px;
+	min-width: 10px;
+	vertical-align:text-bottom;
+}
+
+#partner-nav {
+	/*pink color*/
+	color: #E8416F;
+}
+
+#partner-nav:hover {
+	color: #73cde0;
+}
+
+#old-nav {
+	background-color: #73cde0;
+}
+
+#purdue-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fyx-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.latest-pic {
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.fyx-heading {
+	font-size: 30px;
+}
+
+.fyx-text {
+	font-size: 20px;
+}
+
+.fyx-subtext {
+	font-size: 16px;
+}
+
+.fyx-icon {
+	color: #73cde0 !important;
+}
+
+.fyx-article {
+	padding: 10px;
+	margin: 0px 5px 20px 5px;
+	box-shadow: 4px 5px 2px 2px #f0f0f0;
+}
+
+.fyx-coolest {
+	color: #73cde0 !important; 
+	display:inline; 
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.fyx-company {
+	color: #E8416F !important;
+	display:inline; 
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.fyx-pink {
+	color: #E8416F !important;
+	display:inline; 
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.div-p {
+  /*
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  */
+  line-height: 1.25;
+}
+
+/*#purdue-team {
+	max-height: 10px;
+	background-image: url(https://docs.google.com/drawings/d/e/2PACX-1vRGUI234WDnDMldg21InbfAgDPv6wm0k5WncKnRpIQM2VIGb0Qejn8jww2NnGYiZlOCz4JT6alEBjMl/pub?w=960&amp;h=720);
+}*/
