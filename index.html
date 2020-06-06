@@ -16,8 +16,8 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -32,57 +32,127 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" type="image/jpg" href="/img/portfolio/pictures/Froyo_Logo.png"/>
+	
+	<!-- Make my own sticky header-->
+	<link href="css/myNav.css" rel="stylesheet" />
+	<!-- <script src="js/myNav.js"></script> -->
+	  
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
     <script src="https://js.stripe.com/v3"></script>
-
+	  
+	<!-- think aarti forgot to link this one-->
   </head>
 
   <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <!-- Navigation (Old as of 6/4)
+	<div class="get-nav-bar-at-load">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"> 
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">FroYo XPress</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="#page-top">FroYo XPress</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<img class="navbar-toggler-icon" src="https://docs.google.com/drawings/d/e/2PACX-1vTQKYsv9jfkOd4-ZfI3rR8rPa8uO_u9DsmoLyT50J7Z7-NddFBwMJD0phGb6i79hiN1u_21GGeIuLaK/pub?w=960&amp;h=720" alt="">
+			</button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+			
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Product</a>
+              <a class="nav-link" href="latest.html">The Latest</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#opportunities">Opportunities</a>
+              <a class="nav-link" href="team.html">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#ourteam">Team</a>
+              <a class="nav-link" href="process.html">How It Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link" href="https://forms.gle/PomUzYhtJd3JHgdK6" target="_blank">Partner with Us</a>
             </li>
           </ul>
         </div>
       </div>
+
     </nav>
+	  </div>
+**end olf header-->
+	  
+	<!-- Navigation -->
+	<div class="get-nav-bar-at-load">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"> -->
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="height:75%; width:25%">
+			<img class="horiz-logo" src="img/portfolio/pictures/horizontal-logo.png">
+		</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+		  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link fyx-item" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fyx-item" href="latest.html">The Latest</a>
+            </li>
+			<!--
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+			-->
+            <li class="nav-item">
+              <a class="nav-link fyx-item" href="team.html">Our Team</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link fyx-item" id="partner-nav" href="https://forms.gle/PomUzYhtJd3JHgdK6" target="_blank">
+				  <img class="partner-nav-img" src="img/portfolio/pictures/Froyo_Logo.png">
+				  Partner with Us
+			  </a>
+            </li>
+          </ul>
+			<!--
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+			-->
+        </div>
+      </div>
+	  </nav>
+	  </div>
+	  <img src="img/portfolio/pictures/horizontal-logo.png" alt="menu.jpg" class="navbar" style="height:55px;">
 
     <!-- landing part -->
-    <header class="masthead text-center text-white d-flex">
+    <header class="ourkiosk">
+		<!--styled in myNav.css-->
+	<img class="kiosk_pic" src="img/header2.jpg" alt="old_header2.jpg">
       <div class="container my-auto">
         <div class="row">
+		 <!-- Do no need anymore
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
               <strong class="landingtext">Welcome to FroYo XPress</strong>
             </h1>
             <hr>
           </div>
+		 
           <div class="col-lg-8 mx-auto">
-            <!-- <p class="text-faded mb-5">Bringing a healthy, quick snack to locations untapped by brick-and-mortar stores!</p> -->
+             <p class="text-faded mb-5">Bringing a healthy, quick snack to locations untapped by brick-and-mortar stores!</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+		 
           </div>
+		 -->
         </div>
       </div>
     </header>
@@ -91,7 +161,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h2 class="section-heading text-white">Learn more about us!</h2>
+            <h2 class="section-heading text-white fyx-heading">What is FroYo Xpress?</h2>
             <hr class="light my-4">
             <!-- THIS BE THE OLD TEXT YEAHHHHHHHHHHHH
                         <p class="text-faded mb-4">FroYo XPress is more than just frozen yogurt. We leverage the fundamental concept of autonomously dispensing food and beverages to increase affordability and accessibility of food. Digitization of all business is coming and we are on the forefront of this trend.</br> Large companies will not be the only ones to benefit. Our mission is to keep small and mid-sized food and beverage vendors savvy as digitization becomes transformative to their space. It doesn't hurt that everyone loves froyo. By automating retail food and beverage dispensing, FroYo XPress will make nourishment cheaper and more accessible to current consumers, and in the long term, will allow lower income consumers to have access to food that they never had access to before. </br>
@@ -103,10 +173,23 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
 Technology brings retail infrastructure to a turning point, as our ideas of automation finally have the resources to be brought to market.</br></br>Our mission is to engage food and beverage retailers with the future of digitized business, while making food and beverage highly accessible and more affordable to consumers of all kinds.</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
 			-->
-			            <p class="text-faded mb-4">More than just frozen yogurt. </br></br>We leverage the fundamental concept of autonomously dispensing food and beverages to increase affordability and accessibility of food. </br> </br>By automating retail food and beverage dispensing, FroYo XPress will make nourishment cheaper and more accessible to current consumers, and in the long term, will allow lower income consumers to have access to food that they never had access to before. </br></br>
-Technology brings retail infrastructure to a turning point, as our ideas of automation finally have the resources to be brought to market.</br></br>Our mission is to engage food and beverage retailers with the future of digitized business, while making food and beverage highly accessible and more affordable to consumers of all kinds.</p>
+			<!-- Aarti's latest version
+			<p class="text-faded mb-4">More than just frozen yogurt. 
+				<br><br>
+				We leverage the fundamental concept of autonomously dispensing food and beverages to increase affordability and accessibility of food. 
+				<br><br>
+				By automating retail food and beverage dispensing, FroYo XPress will make nourishment cheaper and more accessible to current consumers, and in the long term, will allow lower income consumers to have access to food that they never had access to before. 
+				<br><br>
+				Technology brings retail infrastructure to a turning point, as our ideas of automation finally have the resources to be brought to market.
+				<br><br>
+				Our mission is to engage food and beverage retailers with the future of digitized business, while making food and beverage highly accessible and more affordable to consumers of all kinds.</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-
+            -->
+			  <p style="margin:auto;" class="text-white fyx-text">
+				  FroYo Xpress is more than just a frozen yogurt company. Our engineers are working to design systems which increase affordability and accessibility of food, by creating fully autonomous frozen yogurt kiosks.
+				  <br><br>
+				  Our Customers will be able to approach our fully autonomous kiosks, use their preferred payment method, and serve themselves a healthy snack, with amazing flavors that we proudly stand behind.
+			  </p>
           </div>
         </div>
       </div>
@@ -116,18 +199,54 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Our Product</h2>
+			  <!-- revisit. Do we want to talk about our product some more? -->
+            <h2 class="section-heading fyx-heading">Our Core Values</h2>
             <hr class="my-4">
           </div>
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
+			
+			<div class="col-lg-4 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+				<div style="font-size: 24px; text-align:center;">
+					<i style="color: #73cde0 !important;" class="fa fa-4x fa-leaf text-primary mb-3 sr-icons"></i>
+					<br>
+				</div>
+				<h2 class="has-text-align-center"><strong>Serving Healthy Products</strong></h2>
+				<p class="value-description">Our great-tasting frozen yogurt is made with the best ingredients. It is dairy-free, all-natural, and the perfect treat for any occasion.</p>
+			  </div>
+            </div>
+			
+			<div class="col-lg-4 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+				<div style="font-size: 24px; text-align:center;">
+					<i style="color: #73cde0 !important;" class="fa fa-4x fa-globe text-primary mb-3 sr-icons"></i>
+					<br>
+				</div>
+				<h2 class="has-text-align-center"><strong>The Self-Service Experience</strong></h2>
+				<p class="value-description">Our autonomous frozen yogurt kiosk are interactive, simple, and fun to use! Customers simply swipe, pour, and enjoy!</p>
+			  </div>
+            </div>
+			
+			<div class="col-lg-4 col-md-6 text-center" >
+              <div class="service-box mt-5 mx-auto">
+				<div style="font-size: 24px; text-align:center;">
+					<!--color blue-->
+					<i style="color: #73cde0 !important;" class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+					<br>
+				</div>
+				<h2 class="has-text-align-center"><strong>Helping Our Community</strong></h2>
+				<p class="value-description">FroYo Xpress has committed to donating a percentage of all kiosk sales to <a href="https://www.purdue.edu/cancer-research/index.php">The Purdue Center for Cancer Research</a> to support their world-class efforts to end cancer!</p>
+			  </div>
+            </div>
+		<!--
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <!--
+              /*
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              -->
+              */
               <i class="fa fa-4x fa-leaf text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Healthy</h3>
               <p class="text-muted mb-0">Our frozen yogurt is made with the best ingredients. Dairy-free, 100% all natural, and delicious.</p>
@@ -154,9 +273,25 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
               <p class="text-muted mb-0">Our team has been working hard for years. Let us create the best arrangement for you.</p>
             </div>
           </div>
+	 	-->
         </div>
       </div>
     </section>
+	  
+	  <!-- style is in myNav.css-->
+	  <section  class="bg-primary" id="partner" >
+		  <!--style="background-image: url('/portfolio/pictures/Touch_to_begin.png);">-->
+          <div class="col-lg-10 mx-auto text-center">
+            <h2 class="section-heading text-white fyx-heading">Interested In Partnering With Us?</h2>
+            <hr class="light my-4">
+		  <a href="https://forms.gle/PomUzYhtJd3JHgdK6" target="_blank">
+			<img class="partner_pic" src="img/portfolio/pictures/Touch_to_begin_cropped.png" alt="img/portfolio/pictures/Froyo_Logo.png">
+			<h2 class="section-heading text-white fyx-heading"><em>Touch To Begin</em></h2>
+		  </a>
+		  </div>
+			
+	  </section>
+	  <!--<iframe src="https://myhub.autodesk360.com/ue2b62d1e/shares/public/SH56a43QTfd62c1cd96835497e5eb1f2fbee?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>-->
 
     <!-- we can use this to ensure that everything is on the appropriate width across
     <section class="p-0" id="portfolio">
@@ -275,8 +410,8 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
       </div>
     </section>
     -->
-
-
+	  
+	  <!--
       <section class="bg-primary text-white" id="opportunities">
       <div class="container">
         <div class="row">
@@ -284,13 +419,14 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
             <h2 class="section-heading text-white">Interested in FroYo XPress?</h2>
             <hr class="light my-4">
             <p class="mb-4">
-            If you love froyo as much as we do, don't forget to check back on our website when we open locations. <br/> </p>
-            If you're a consumer, talk to us more about how we can set you up with your next best venture. <br/> </p>
+            If you love froyo as much as we do, don't forget to check back on our website when we open locations. <br/><br/>
+            If you're a consumer, talk to us more about how we can set you up with your next best venture. <br/><br/>
             If you're an investor, please send us a message! We'd love to talk more about any partnerships.<br/></p>
           </div>
         </div>
       </div>
       </section> 
+      -->
     <!-- OLD ONE HERE WITH BUTTON
      <section class="bg-primary text-white" id="opportunities">
       <div class="container text-center">
@@ -299,7 +435,9 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
       </div>
     </section> 
     -->
-        <section id="ourteam">
+	  
+	 <!--
+     <section id="ourteam">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -313,8 +451,8 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <!---<i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i> --> 
-              <!-- this is an icon tag with the i -->
+              /* <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i> */
+              /* this is an icon tag with the i */
               <img src="img/portfolio/pictures/marek.jpeg" class="myimages rounded-circle" alt="">
               <h3 class="mb-3">Marek Davis</h3>
               <p class="text-muted mb-0">Co-Founder. Industrial Engineering. Indiana.</p>
@@ -322,7 +460,7 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <!---<i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i> -->
+              /*<i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i> */
               <img src="img/portfolio/pictures/IMG_9352.jpeg" class="myimages rounded-circle" alt=""> 
               <h3 class="mb-3">Aarti Panda</h3>
               <p class="text-muted mb-0">Co-Founder. Computer Science. California.</p>
@@ -330,7 +468,7 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <!--<i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i> -->
+              /*<i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i> */
               <img src="img/portfolio/pictures/HFB_headshot.jpg" class="myimages rounded-circle" alt="">
               <h3 class="mb-3">Henry Berkemeier</h3>
               <p class="text-muted mb-0">Co-Founder. Industrial Engineering. Michigan.</p>
@@ -338,7 +476,7 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <!-- <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i> -->
+              /* <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i> */
               <img src="img/portfolio/pictures/train4.jpg" class="myimages rounded-circle" alt="">
               <h3 class="mb-3">Our Advisors</h3>
               <p class="text-muted mb-0">Purdue professors, Purdue Foundry, SV Entrepreneurs.</p>
@@ -347,53 +485,57 @@ Technology brings retail infrastructure to a turning point, as our ideas of auto
         </div>
       </div>
     </section>
+    
 
+-->
 
-
-    <section class="bg-dark text-white">
+    <footer class="bg-dark text-white">
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading fyx-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to install a FroYo XPress machine near you? That's great! Send us an email, and we can set up an initial site assessment and sales quotation.</p>
+            <p class="mb-5 fyx-text">Interested in learning more? That's great! Please reach out with any questions or support if you would like to talk or stay engaged by following us on social media.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-3 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <i class="fa fa-phone fa-3x mb-3 sr-contact fyx-icon"></i>
             <p>260-418-6316</p>
           </div>
           <div class="col-lg-3 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="contactfroyoxpress@gmail.com">contact@froyoxpress.com</a>
-            </p>
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact fyx-icon"></i>
+              <p>contact@froyoxpress.com</p>
           </div>
 
           <div class="col-lg-3 mr-auto text-center">
-            <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="https://www.linkedin.com/company/froyo-xpress">LinkedIn</a>
+			<a href="https://www.linkedin.com/company/froyo-xpress" target="_blank">
+            <i class="fa fa-linkedin fa-3x mb-3 sr-contact fyx-icon"></i>
+            <p style="color:white;">
+              FroYo Xpress
             </p>
+		    </a>
           </div>
 
-          <div class="col-lg-3 mr-auto text-center">
-            <i class="fa fa-instagram fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="https://www.instagram.com/froyoxpress/">Instagram</a>
-            </p>
+          <div class="col-lg-3 mr-auto text-center ">
+			<a href="https://www.instagram.com/froyoxpress/" target="_blank">
+            <i class="fa fa-instagram fa-3x mb-3 sr-contact fyx-icon"></i>
+				<p style="color:white;">
+				  @froyoxpress
+				</p>
+			</a>
           </div>
 
         </div>
       </div>
     </section>
-    </section>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
