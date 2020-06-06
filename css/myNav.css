@@ -75,6 +75,7 @@
 }
 
 #partner-nav {
+	/*pink color*/
 	color: #E8416F;
 }
 
@@ -85,3 +86,77 @@
 #old-nav {
 	background-color: #73cde0;
 }
+
+#purdue-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fyx-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.latest-pic {
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.fyx-heading {
+	font-size: 30px;
+}
+
+.fyx-text {
+	font-size: 20px;
+}
+
+.fyx-subtext {
+	font-size: 16px;
+}
+
+.fyx-icon {
+	color: #73cde0 !important;
+}
+
+.fyx-article {
+	padding: 10px;
+	margin: 0px 5px 20px 5px;
+	box-shadow: 4px 5px 2px 2px #f0f0f0;
+}
+
+.fyx-coolest {
+	color: #73cde0 !important; 
+	display:inline; 
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.fyx-company {
+	color: #E8416F !important;
+	display:inline; 
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.fyx-pink {
+	color: #E8416F !important;
+	display:inline; 
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.div-p {
+  /*
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  */
+  line-height: 1.25;
+}
+
+/*#purdue-team {
+	max-height: 10px;
+	background-image: url(https://docs.google.com/drawings/d/e/2PACX-1vRGUI234WDnDMldg21InbfAgDPv6wm0k5WncKnRpIQM2VIGb0Qejn8jww2NnGYiZlOCz4JT6alEBjMl/pub?w=960&amp;h=720);
+}*/

@@ -6,19 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FroYo Xpress Latest</title>
     <!-- Bootstrap -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link href="css/myNav.css" rel="stylesheet">
 	
-	  
-	<!-- Plugin CSS-->
+	<!-- Bootstrap core CSS, changed it from the min -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <!-- Custom styles for this template, changed it from the min-->
+
+    <!-- Custom styles for this template, changed it from the min -->
     <link href="css/creative.css" rel="stylesheet">
+	  
+	<!-- post Aarti header -->
+	<link href="css/successToast.css" rel="stylesheet" /><!-- Purchase Modal -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/jpg" href="/img/portfolio/pictures/Froyo_Logo.png"/>
+	
+	<!-- Make my own sticky header-->
+	<link href="css/myNav.css" rel="stylesheet" />
+	<!-- <script src="js/myNav.js"></script> -->
+	  
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
 	  
   </head>
   <body>
-	<!-- Navigation -->
+	<!-- Navigation 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="height:75%; width:25%">
+			<img class="horiz-logo" src="img/portfolio/pictures/horizontal-logo.png">
+		</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+		  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link fyx-item" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fyx-item" href="latest.html">The Latest</a>
+            </li>
+			/*
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+			*/
+            <li class="nav-item">
+              <a class="nav-link fyx-item" href="team.html">Our Team</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link fyx-item" id="partner-nav" href="https://forms.gle/PomUzYhtJd3JHgdK6" target="_blank">
+				  <img class="partner-nav-img" src="img/portfolio/pictures/Froyo_Logo.png">
+				  Partner with Us
+			  </a>
+            </li>
+          </ul>
+			/*
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+			*/
+        </div>
+      </div>
+    </nav>
+	<img src="img/portfolio/pictures/horizontal-logo.png" alt="menu.jpg" class="navbar" style="height:60px;">
+-->
+	   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"> -->
       <div class="container">
         <a class="navbar-brand" href="index.html" style="height:75%; width:25%">
@@ -65,8 +136,8 @@
 			-->
         </div>
       </div>
-    </nav>
-	<img src="img/portfolio/pictures/horizontal-logo.png" alt="menu.jpg" class="navbar" style="height:60px;">
+	  </nav>
+	  <img src="img/portfolio/pictures/horizontal-logo.png" alt="menu.jpg" class="navbar" style="height:55px;">
 <!-- Slideshow 'carousel' thing
 
     <div class="container mt-3">
@@ -147,96 +218,170 @@
     </div>
 -->
     <!-- <hr style="width:50%;"> -->
-	<hr>
+	<header class="fyx-latest">
+		<img class="latest-pic fyx-center" src="img/portfolio/pictures/Full_Logo.png" alt="img/portfolio/pictures/horizontal-logo.png">
+		<br>
+		<br>
+		<br>
+	</header>
+	
+	<section class="bg-dark" id="Press">
+		<div class="container">
+			<div class="row">
+			  <div class="col-lg-10 mx-auto text-center">
+				<h2 class="section-heading text-white fyx-heading">The Press</h2>
+				<hr class="light my-4">
+				  <br>
+				  <div class="text-white fyx-text div-p">
+					The best way to stay up to stay up to date on the 
+						  <strong>
+							  <div class="fyx-coolest div-p">Coolest</div>
+							  <div class="fyx-company div-p">Company</div>
+						  </strong>
+					in the frozen treat business to subscribe to the Fro<div class="fyx-pink" style="">Yo</div> Xpress Press and receive monthly updates on our progress right in your inbox.
+				  	<br><br>
+					Just like the kiosks that serve our awesome fozen yogurt, the press is convenient, fun, and interactive, and we would love to have you as a reader.
+			  	 </div>
+				  <br>
+				  <br>
+				<a href="https://forms.gle/fAPBjbge1DEUjwtP7" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">SUBSCRIBE TO THE PRESS</a>
+			</div>
+        </div>	
+      </div>
+    </section>
 	  
-    <h2 class="text-center">FroYo Xpress Latest</h2>
-    <hr>
-	  
-    <div class="container">
+    <section class="container">
+	<h2 class="text-center">FroYo Xpress Latest</h2>
+    	<hr>
       <div class="row text-center">
         <div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="img/portfolio/pictures/purdue-arch-300x175.jpeg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Dairy-Free Frozen Yogurt Startup Launches First Kiosk at Purdue</h5>
-              <p class="card-text">Read about the launch of our first kiosk at Purdue! This kiosk did not add any tech, but it allowed us to go to market and begin to collect data.</p>
-              <a href="https://www.jconline.com/story/money/2018/08/22/dairy-free-frozen-yogurt-startup-launches-first-kiosk-purdue/1061754002/" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">Dairy-Free Frozen Yogurt Startup Launches First Kiosk at Purdue</h5>
+              <p class="card-text fyx-subtext">Read about the launch of our first kiosk at Purdue! This kiosk did not add any tech, but it allowed us to go to market and begin to collect data.</p>
+              <a href="https://www.jconline.com/story/money/2018/08/22/dairy-free-frozen-yogurt-startup-launches-first-kiosk-purdue/1061754002/" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">Read article</a>
             </div>
           </div>
         </div>
         <div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="img/portfolio/pictures/froyo-xpressLO-300x166.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Purdue students build robotic frozen yogurt kiosk with unique self-serve software, non-dairy options</h5>
-              <p class="card-text">Check out this article from Purdue on FroYo Xpress' beginning and how campus resources helped the company start.</p>
-              <a href="https://www.purdue.edu/newsroom/releases/2017/Q3/purdue-students-build-robotic-frozen-yogurt-kiosk-with-unique-self-serve-software,-non-dairy-options.html" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">Purdue students build robotic frozen yogurt kiosk with unique self-serve software, non-dairy options</h5>
+              <p class="card-text fyx-subtext">Check out this article from Purdue on FroYo Xpress' beginning and how campus resources helped the company start.</p>
+              <a href="https://www.purdue.edu/newsroom/releases/2017/Q3/purdue-students-build-robotic-frozen-yogurt-kiosk-with-unique-self-serve-software,-non-dairy-options.html" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">Read article</a>
+				<!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>-->
             </div>
           </div>
         </div>
 	
         <div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="img/portfolio/pictures/froyo-xpress-unveiling-300x169.jpeg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Dairy-Free Frozen Yogurt Startup Launches First Kiosk at Purdue</h5>
-              <p class="card-text">Read about the launch of our first kiosk at Purdue! This kiosk did not add any tech, but it allowed us to go to market and begin to collect data.</p>
-              <a href="https://www.jconline.com/story/money/2018/08/22/dairy-free-frozen-yogurt-startup-launches-first-kiosk-purdue/1061754002/" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">Dairy-Free Frozen Yogurt Startup Launches First Kiosk at Purdue</h5>
+              <p class="card-text fyx-subtext">Read about the launch of our first kiosk at Purdue! This kiosk did not add any tech, but it allowed us to go to market and begin to collect data.</p>
+              <a href="https://www.jconline.com/story/money/2018/08/22/dairy-free-frozen-yogurt-startup-launches-first-kiosk-purdue/1061754002/" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">READ ARTICLE</a>
             </div>
           </div>
         </div>
 		<div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="https://docs.google.com/drawings/d/e/2PACX-1vRE0B9EpHY_T8-QxkcDFHkevGOAyeWYFiRtMVwn1QyIn8LBwlHK4BrGC-6BAQhhu_ybxcpfBzCp7LkK/pub?w=300&h=170" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">FroYo Xpress Press January Edition</h5>
-              <p class="card-text">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the January edition of the FroYo Xpress Press here.</p>
-              <a href="https://docs.google.com/document/d/1odCr0OGu-cDQbXIDaAcGvSx2pJhiU0R0lFxwh52qTAg/edit?usp=sharing" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">FroYo Xpress Press January Edition</h5>
+              <p class="card-text fyx-subtext">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the January edition of the FroYo Xpress Press here.</p>
+              <a href="https://docs.google.com/document/d/1odCr0OGu-cDQbXIDaAcGvSx2pJhiU0R0lFxwh52qTAg/edit?usp=sharing" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">READ ARTICLE</a>
             </div>
           </div>
         </div>
 		<div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="https://docs.google.com/drawings/d/e/2PACX-1vRE0B9EpHY_T8-QxkcDFHkevGOAyeWYFiRtMVwn1QyIn8LBwlHK4BrGC-6BAQhhu_ybxcpfBzCp7LkK/pub?w=300&h=170" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">FroYo Xpress Press February Edition</h5>
-              <p class="card-text">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the February edition of the FroYo Xpress Press here.</p>
-              <a href="https://docs.google.com/document/d/1Hn1mqMVuYai7DouBQc_A3z7tt5To_wLkcyNORptn6QI/edit?usp=sharing" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">FroYo Xpress Press February Edition</h5>
+              <p class="card-text fyx-subtext">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the February edition of the FroYo Xpress Press here.</p>
+              <a href="https://docs.google.com/document/d/1Hn1mqMVuYai7DouBQc_A3z7tt5To_wLkcyNORptn6QI/edit?usp=sharing" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">READ ARTICLE</a>
             </div>
           </div>
         </div>
 		<div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="https://docs.google.com/drawings/d/e/2PACX-1vRE0B9EpHY_T8-QxkcDFHkevGOAyeWYFiRtMVwn1QyIn8LBwlHK4BrGC-6BAQhhu_ybxcpfBzCp7LkK/pub?w=300&h=170" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">FroYo Xpress Press March Edition</h5>
-              <p class="card-text">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the March edition of the FroYo Xpress Press here.</p>
-              <a href="https://docs.google.com/document/d/1r-Q-rLLEW3VtNaMa5sO03jsw486rJdTP7kXsvgetqhE/edit?usp=sharing" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">FroYo Xpress Press March Edition</h5>
+              <p class="card-text fyx-subtext">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the March edition of the FroYo Xpress Press here.</p>
+              <a href="https://docs.google.com/document/d/1r-Q-rLLEW3VtNaMa5sO03jsw486rJdTP7kXsvgetqhE/edit?usp=sharing" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">READ ARTICLE</a>
             </div>
           </div>
         </div>
         <div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="https://docs.google.com/drawings/d/e/2PACX-1vRE0B9EpHY_T8-QxkcDFHkevGOAyeWYFiRtMVwn1QyIn8LBwlHK4BrGC-6BAQhhu_ybxcpfBzCp7LkK/pub?w=300&h=170" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">FroYo Xpress Press April Edition</h5>
-              <p class="card-text">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the April edition of the FroYo Xpress Press here.</p>
-              <a href="https://docs.google.com/document/d/1359OVvdB6g74AKNRv_H9lb20JVAVz6aogAKNzsdaOmk/edit?usp=sharing" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">FroYo Xpress Press April Edition</h5>
+              <p class="card-text fyx-subtext">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the April edition of the FroYo Xpress Press here.</p>
+              <a href="https://docs.google.com/document/d/1359OVvdB6g74AKNRv_H9lb20JVAVz6aogAKNzsdaOmk/edit?usp=sharing" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">READ ARTICLE</a>
             </div>
           </div>
         </div>
 		 <div class="col-md-6 pb-1 pb-md-0">
-          <div class="card">
+          <div class="card fyx-article">
             <img class="card-img-top" src="https://docs.google.com/drawings/d/e/2PACX-1vRE0B9EpHY_T8-QxkcDFHkevGOAyeWYFiRtMVwn1QyIn8LBwlHK4BrGC-6BAQhhu_ybxcpfBzCp7LkK/pub?w=300&h=170" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">FroYo Xpress Press May Edition</h5>
-              <p class="card-text">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the May edition of the FroYo Xpress Press here.</p>
-              <a href="https://docs.google.com/document/d/1e0D_OgQqrwTJk1FJv9E9dVmhXlikC0zKrTxR-CU1hQQ/edit?usp=sharing" target="_blank" class="btn btn-primary">Read More</a>
+              <h5 class="card-title fyx-text">FroYo Xpress Press May Edition</h5>
+              <p class="card-text fyx-subtext">Welcome! If you are someone who needs to stay up-to-date on the latest happenings of the FroYo Xpress Press, you might want to start by catching up! Read the May edition of the FroYo Xpress Press here.</p>
+              <a href="https://docs.google.com/document/d/1e0D_OgQqrwTJk1FJv9E9dVmhXlikC0zKrTxR-CU1hQQ/edit?usp=sharing" target="_blank" class="btn btn-primary btn-xl js-scroll-trigger">READ ARTICLE</a>
             </div>
           </div>
         </div>
 	  </div>
-	</div>	
+	</section>	
+	  
+	 <footer class="bg-dark text-white">
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h2 class="section-heading fyx-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5 fyx-text">Interested in learning more? That's great! Please reach out with any questions or support if you would like to talk or stay engaged by following us on social media.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact fyx-icon"></i>
+            <p>260-418-6316</p>
+          </div>
+          <div class="col-lg-3 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact fyx-icon"></i>
+              <p>contact@froyoxpress.com</p>
+          </div>
+
+          <div class="col-lg-3 mr-auto text-center">
+			<a href="https://www.linkedin.com/company/froyo-xpress" target="_blank">
+            <i class="fa fa-linkedin fa-3x mb-3 sr-contact fyx-icon"></i>
+            <p style="color:white;">
+              FroYo Xpress
+            </p>
+		    </a>
+          </div>
+
+          <div class="col-lg-3 mr-auto text-center ">
+			<a href="https://www.instagram.com/froyoxpress/" target="_blank">
+            <i class="fa fa-instagram fa-3x mb-3 sr-contact fyx-icon"></i>
+				<p style="color:white;">
+				  @froyoxpress
+				</p>
+			</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    </footer>
+
 <!-- Takeout all the stuff from the template that we will not need. There is an extra close div if we uncomment
       <div class="row text-center mt-4">
         <div class="col-md-4 pb-1 pb-md-0">
